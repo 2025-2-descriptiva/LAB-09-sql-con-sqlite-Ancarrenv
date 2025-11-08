@@ -38,3 +38,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select min(c21)
+from tbl2
+group by c21

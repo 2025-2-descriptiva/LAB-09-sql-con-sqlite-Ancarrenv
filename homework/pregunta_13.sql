@@ -43,3 +43,6 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+select K0
+from tbl1
+where c13 >= 400

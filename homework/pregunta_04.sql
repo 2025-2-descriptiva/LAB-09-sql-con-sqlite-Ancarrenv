@@ -40,3 +40,8 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select tbl0.K0 , tbl1.c16
+from tbl0 
+inner join tbl1
+on tbl0.K0 = tbl0.K0
+where tbl0.K0 and tbl1.c16 like '%'

@@ -22,3 +22,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+
+select *
+from tbl1 limit 5 order by c14 

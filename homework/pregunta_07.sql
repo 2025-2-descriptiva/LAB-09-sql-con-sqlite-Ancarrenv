@@ -43,3 +43,17 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select 
+
+tbl1.K0 
+, tbl1.K1 
+, tbl1.c12
+, tbl1.c13
+, tbl1.c14
+, tbl1.c15
+, tbl1.c16
+
+from tbl1 order by c14 
+where K0 not in ('A' , 'B') and 'c13'not in (200, 900)
+
+

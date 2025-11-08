@@ -41,3 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select c23, AVG(c21) 
+from tbl2
+group by c23 
