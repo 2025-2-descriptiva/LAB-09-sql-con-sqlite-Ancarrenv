@@ -41,13 +41,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-select 
-
-tbl0.K0 
-, tbl0.c01
-, tbl0.c02
-, tbl0.c03
-, tbl0.c04
-
-from tbl0
-where c02 in (100, 600)
+SELECT 
+*
+FROM tbl0
+WHERE c02 IN (100, 600)

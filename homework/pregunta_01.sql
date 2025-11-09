@@ -17,4 +17,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-select sum(c12) from tbl1 group by c12
+select SUM(c12) from tbl1

@@ -43,6 +43,7 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-select K0
-from tbl1
-where c13 >= 400
+SELECT K0, ROUND(AVG(c12), 2) AS "avg(c12)"
+FROM tbl1
+WHERE c13 > 400
+GROUP BY K0
