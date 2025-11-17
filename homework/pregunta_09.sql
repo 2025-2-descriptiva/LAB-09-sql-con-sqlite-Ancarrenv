@@ -38,10 +38,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT K1, c21, c22, c23, c24, c25
-FROM tbl2 t
-WHERE NOT EXISTS (
-    SELECT 1
-    FROM tbl2 x
-    WHERE x.c21 < t.c21
-);
+SELECT *
+FROM tbl2
+WHERE c21 = (SELECT MIN(c21) FROM tbl2)

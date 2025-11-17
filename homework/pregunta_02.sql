@@ -19,4 +19,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 
-select COUNT(*) from tbl1;
+SELECT COUNT(*) 
+FROM tbl1
